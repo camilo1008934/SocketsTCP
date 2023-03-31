@@ -9,7 +9,7 @@ FORMAT='utf-8'
 
 
 date=datetime.now().strftime("%Y-%m-%d-%H-%M-%S-")
-log=open(("Logs\c"+date+"log.txt"),'a')
+log=open(("Logs/"+date+"log.txt"),'a')
 
 
 conexiones=int(input("Ingrese el numero de conexiones: "))
@@ -27,7 +27,7 @@ input("Presione enter para comenzar la recepcion...") # Confirmacion de transfer
 clientes[0].send("START".encode(FORMAT))
 
 for i in range(1,conexiones+1): # Se realiza la transferencia para cada conexion
-    file=open(("ArchivosRecibidos\Cliente"+str(i)+"-Prueba-"+str(conexiones))+".txt", 'a')
+    file=open(("ArchivosRecibidos/Cliente"+str(i)+"-Prueba-"+str(conexiones))+".txt", 'a')
     start=time.time()
 
     while True: # Se consigue el archivo en partes del tamano de la variable SIZE

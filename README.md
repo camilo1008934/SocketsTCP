@@ -14,4 +14,4 @@ En primer lugar se entra al archivo ClienteTCP.py y se cambia la variable IP por
 
 Cuando se ejecute el archivo se ingresa el numero de conexiones que se desean (Tal como se hizo con el servidor) y posteriormente se presiona ENTER para empezar la transferencia de los archivos.
 
-Dichos archivos se guardan en la carpeta Cliente/ArchivosRecibidos y tanto para el servidor como para el cliente tienen su correspondiente carpeta de Logs donde se guarda la informacion de cada transmision.
+Dichos archivos se guardan en la carpeta Cliente/ArchivosRecibidos y tanto para el servidor como para el cliente se tiene su correspondiente carpeta de Logs donde se guarda la informacion de cada transmision.

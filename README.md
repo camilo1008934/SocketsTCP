@@ -2,7 +2,7 @@
 
 En este repositorio se encuentra la aplicacion de un Cliente y Servidor de Sockets TCP para la transmision de archivos.
 
-En primer lugar accede a la carpeta Servidor y se ejecuta el archivo generateFiles.py para generar los archivos 100MB.txt y 250MB.txt los cuales se utilizan para la transmision.
+En primer lugar se accede a la carpeta Servidor y se ejecuta el archivo generateFiles.py para generar los archivos 100MB.txt y 250MB.txt los cuales se utilizan para la transmision.
 
 En la misma carpeta Servidor se abre el archivo ServidorTCP.py y se cambia la variable HOST por la IP del equipo en donde se este ejecutando dicho servidor y posteriormente en este servidor se ejecuta el archivo ServidorTCP.py
 

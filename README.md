@@ -16,4 +16,4 @@ Cuando se ejecute el archivo se ingresa el numero de conexiones que se desean (T
 
 Dichos archivos se guardan en la carpeta Cliente/ArchivosRecibidos y tanto para el servidor como para el cliente se tiene su correspondiente carpeta de Logs donde se guarda la informacion de cada transmision.
 
-** Dado la complejidad computacional que se tiene para conseguir los Hash de archivos tan grandes en esta implementacion puede llegar a pasar que dicho valor no se calcule y se imprima el archivo completo sin embargo la transmision todavia se logra dar y se consigue un Log con los datos de esto
+** Dado la complejidad computacional que se tiene para conseguir los Hash de archivos tan grandes (Para el de 250MB) en esta implementacion puede llegar a pasar que dicho valor no se calcule y se imprima el archivo completo sin embargo la transmision todavia se logra dar y se consigue un Log con los datos de esto

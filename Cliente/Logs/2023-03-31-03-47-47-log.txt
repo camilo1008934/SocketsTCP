@@ -1,0 +1,3 @@
+Nombre del archivo: Cliente1-Prueba-1.txt
+Tamano del archivo: 262144039 bytes
+Archivo del cliente 1 recibido en 6.888578653335571.

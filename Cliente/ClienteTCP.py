@@ -28,14 +28,13 @@ clientes[0].send("START".encode(FORMAT))
 
 for i in range(1,conexiones+1): # Se realiza la transferencia para cada conexion
     file=open(("ArchivosRecibidos/Cliente"+str(i)+"-Prueba-"+str(conexiones))+".txt", 'a')
-    start=time.time()
 
+    start=time.time()
     while True: # Se consigue el archivo en partes del tamano de la variable SIZE
         part=clientes[i].recv(SIZE).decode(FORMAT)
         file.write(part)
         if not part:
             break
-
     end=time.time()
 
     print("Archivo del cliente "+str(i)+" recibido.")  
@@ -43,12 +42,14 @@ for i in range(1,conexiones+1): # Se realiza la transferencia para cada conexion
     file=open(("ArchivosRecibidos\Cliente"+str(i)+"-Prueba-"+str(conexiones))+".txt",'rt')
 
     content=file.read()
+    index=content.find("HashHex") # Se realiza la comprobacion de los hash
+    
+
     file.seek(0,os.SEEK_END)
     log.write("Nombre del archivo: Cliente"+str(i)+"-Prueba-"+str(conexiones)+".txt\n")
     log.write("Tamano del archivo: "+str(file.tell())+" bytes\n")
     log.write("Archivo del cliente "+str(i)+" recibido en "+str(end-start)+".\n")
 
-    index=content.find("HashHex") # Se realiza la comprobacion de los hash
     hashG=content[0:index]
 
     file=open(("ArchivosRecibidos\Cliente"+str(i)+"-Prueba-"+str(conexiones))+".txt", 'w')

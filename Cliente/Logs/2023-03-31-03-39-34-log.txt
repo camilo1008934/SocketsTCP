@@ -1,0 +1,15 @@
+Nombre del archivo: Cliente1-Prueba-5.txt
+Tamano del archivo: 104857639 bytes
+Archivo del cliente 1 recibido en 1.8612587451934814.
+Nombre del archivo: Cliente2-Prueba-5.txt
+Tamano del archivo: 104857639 bytes
+Archivo del cliente 2 recibido en 1.3616926670074463.
+Nombre del archivo: Cliente3-Prueba-5.txt
+Tamano del archivo: 104857639 bytes
+Archivo del cliente 3 recibido en 1.4777510166168213.
+Nombre del archivo: Cliente4-Prueba-5.txt
+Tamano del archivo: 104857639 bytes
+Archivo del cliente 4 recibido en 1.3598573207855225.
+Nombre del archivo: Cliente5-Prueba-5.txt
+Tamano del archivo: 104857639 bytes
+Archivo del cliente 5 recibido en 1.8808293342590332.

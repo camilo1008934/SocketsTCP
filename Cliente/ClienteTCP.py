@@ -57,7 +57,7 @@ for i in range(1,conexiones+1): # Se realiza la transferencia para cada conexion
     file=open(("ArchivosRecibidos\Cliente"+str(i)+"-Prueba-"+str(conexiones))+".txt",'rt')
 
     content=file.read()
-    hashC=hashlib.md5(content.encode(FORMAT)).hexdigest()
+    hashC=hashlib.sha256(content.encode(FORMAT)).hexdigest()
 
     print("Hash obtenido: "+hashG)
     print("Hash calculado: "+hashC)

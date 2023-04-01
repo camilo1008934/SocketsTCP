@@ -1,4 +1,0 @@
-Nombre del archivo: 100MB.txt
-Tamano del archivo: 104857600 bytes
-Archivo exitosamente enviado al cliente 1 en 1.2219974994659424 segundos
-Archivo exitosamente enviado al cliente 2 en 3.221369743347168 segundos

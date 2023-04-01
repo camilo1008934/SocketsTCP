@@ -43,7 +43,7 @@ while True: #Bucle infinito para escuchar conexiones de forma constante
         for i in range(1,clientes+1): #Se envia el archivo para cada conexion
 
             print("Calculando valor de hash...")
-            hashV=hashlib.md5(data.encode(FORMAT))
+            hashV=hashlib.sha256(data.encode(FORMAT))
             conns[i][0].send(hashV.hexdigest().encode(FORMAT))
             conns[i][0].send("HashHex".encode(FORMAT))
 
